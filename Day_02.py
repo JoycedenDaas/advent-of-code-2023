@@ -47,7 +47,7 @@ def main():
         sum_part_2 += np.prod(list(min_values_valled_game.values()))
      
 
-    sum_part_1 = sum(range(1,100)) - sum(invalled_games)
+    sum_part_1 = sum(range(1,101)) - sum(invalled_games)
     print(f"Sum part 1 = {sum_part_1}")
     print(f"Sum part 2 = {sum_part_2}")
 

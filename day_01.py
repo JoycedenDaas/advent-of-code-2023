@@ -35,7 +35,7 @@ def convert(string: str) -> str:
 
 def main():
     # constants
-    data_location = Path("./data/day_1.txt")
+    data_location = Path("./data/day_01.txt")
 
     with open(data_location, "r") as f:
         lines = f.readlines()
